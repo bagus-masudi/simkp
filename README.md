@@ -13,7 +13,7 @@
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/harisfi/growdo.git
+    git clone https://github.com/bagus-masudi/simkp.git
     ```
 
 2. Use the package manager [composer](https://getcomposer.org/download/) to install vendor.
