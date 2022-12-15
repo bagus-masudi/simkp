@@ -1,0 +1,49 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Ubuntu", serif;
+    background-color: $primary_bg;
+}
+
+.modal-login {
+    background-color: rgba(226, 224, 224, 0.5);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .wrapper {
+        border-radius: 15px;
+        max-width: 400px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        h4 {
+            font-family: 'Montserrat';
+            font-weight: 600;
+            font-size: 24px;
+        }
+        form {
+            margin-top: 10px;
+            .mb-3 {
+                font-family: 'Roboto';
+                label {
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                input {
+                    border: 1px solid #4e73df;
+                    border-radius: 5px;
+                    height: 50px;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+            .d-grid {
+                background-color: #4e73df;
+                border-radius: 5px;
+                font-family: "Montserrat";
+            }
+        }
+    }
+}
+
